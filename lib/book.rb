@@ -2,7 +2,7 @@ class Book
     attr_accessor :author, :page_count, :genre
     attr_reader :title
 ​
-    # Book.new("And Then There Were None")
+    Book.new("And Then There Were None")
     def initialize(title)
         @title = title
 
@@ -42,6 +42,7 @@ class Book
     end
 ​
 end
+
 
 
 ​
