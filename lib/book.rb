@@ -19,7 +19,7 @@ def page_count=(num)
   @page_count = num
 end
 
-  @page_count
+  def @page_count
 end
 def genre=(genre)
   @genre = genre
